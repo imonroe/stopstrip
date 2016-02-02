@@ -1,20 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<link rel="shortcut icon" href="http://www.ianmonroe.com/favicon.ico" mce_href="http://www.ianmonroe.com/favicon.ico"/>
 <meta name="keywords" content="stop words, stopwords, stopword, strip stop words, text analysis, word cloud, strip stopwords, natural language processing" />
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Stop-Word Stripper - IanMonroe.com</title>
 <style type="text/css">
 <!--
-@import url(http://fonts.googleapis.com/css?family=Copse);
-@import url(http://fonts.googleapis.com/css?family=Puritan);
-@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Copse);
+@import url(https://fonts.googleapis.com/css?family=Puritan);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
 body {
 
-  background: #fff url('http://www.ianmonroe.com/sentiment/images/7820parchment.jpg') center center fixed no-repeat;
+  background: #fff url('https://www.ianmonroe.com/sentiment/images/7820parchment.jpg') center center fixed no-repeat;
   -moz-background-size: cover;
   background-size: cover;
   font-family: 'Puritan', arial, serif;
@@ -65,7 +64,7 @@ font-size:12px;
 
 <body>
 <div class="content_box">
-<p><a href="http://www.ianmonroe.com/"><img src="http://www.ianmonroe.com/wp-content/themes/im_enterprises/images/logo.png" alt="IanMonroe.com" width="286" height="60" align="left" /></a><br /></p>
+<p><a href="https://www.ianmonroe.com/"><img src="http://www.ianmonroe.com/wp-content/themes/im_enterprises/images/logo.png" alt="IanMonroe.com" width="286" height="60" align="left" /></a><br /></p>
 <h1><br />Stop-Word Stripper 1.0<br />
   by Ian Monroe</h1>
   <!-- AddToAny BEGIN -->
@@ -79,9 +78,9 @@ font-size:12px;
 <script type="text/javascript">
 var a2a_config = a2a_config || {};
 a2a_config.linkname = "Stop-word Stripper - IanMonroe.com";
-a2a_config.linkurl = "http://www.ianmonroe.com/stopstrip/";
+a2a_config.linkurl = "https://www.ianmonroe.com/stopstrip/";
 </script>
-<script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
+<script type="text/javascript" src="https://static.addtoany.com/menu/page.js"></script>
 <!-- AddToAny END -->
   </div>
 <div class="content_box" style="width=600px;">
@@ -206,7 +205,7 @@ if (isset($_POST["submission"])){
 			
 
 			?>
-            <p><a href="http://www.ianmonroe.com/stopstrip">Try again? Click here</a></p>
+            <p><a href="https://www.ianmonroe.com/stopstrip">Try again? Click here</a></p>
             <table width="100%" border="0" align="center">
   <tr>
     <td align="center"></td>
@@ -230,7 +229,7 @@ if (isset($_POST["submission"])){
 
 <p>Go on, paste your blob of text in the box below, and see what happens.</p>
 
-<form enctype="multipart/form-data" action="http://www.ianmonroe.com/stopstrip/index.php" method="POST"> 
+<form enctype="multipart/form-data" action="https://www.ianmonroe.com/stopstrip/index.php" method="POST"> 
   <p>Paste your text here:</p> <p><textarea name="mash_text" cols="80" rows="10">Paste text here!</textarea></p>
   <input name="submission" type="hidden" value="true" />
   <!--<p>Upload a file to "correct": <input name="mash" type="file" /></p> -->
@@ -248,14 +247,6 @@ if (isset($_POST["submission"])){
 <br /><br />
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img class="alignleft" style="border-width: 0;" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png" alt="Creative Commons License" width="88" height="31" /></a> <br /> By Ian Monroe, 2011</p>
 </div>
-<script type="text/javascript"> 
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script> 
-<script type="text/javascript"> 
-try {
-var pageTracker = _gat._getTracker("UA-7349487-1");
-pageTracker._trackPageview();
-} catch(err) {}</script> 
+
 </body>
 </html>
